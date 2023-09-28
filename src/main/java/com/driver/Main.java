@@ -5,6 +5,11 @@ public class Main {
     public static void main(String[] args){
 
         Product p=new Product();
+        int ans= p.product(10,20);
+        int ans1= p.product(10,20,30);
+        double ans2=p.product(10.0,20.0);
+
+        System.out.println(ans+" "+ans1+" "+ans2);
 
     }
     public static class Product{
